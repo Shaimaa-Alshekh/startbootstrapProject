@@ -1,0 +1,209 @@
+/*public style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+/**************************************navbar style******************************************************/
+
+.navbar{
+background-color: black;
+height: 1100px;
+   width: 100%;
+   background-image: url(img/header-bg.jpg);
+   background-repeat: no-repeat;
+  
+}
+.logo{
+    float: left;
+    margin-top: 33px;
+  
+}
+.logo img{  
+    width:50%;
+}
+.navbar .list{
+    float: right;
+    margin-top: 33px;
+
+}
+.list ul{
+    list-style-type: none;
+   
+}
+.list ul li{
+    
+    float: left;
+    
+    margin-right: 15px;
+   
+}
+.list ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.navbar h2{
+    color: white;
+    text-align: center;
+    margin-top: 330px; 
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.navbar h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    
+}
+/**************************************service style******************************************************/
+.service{
+    text-align: center;
+    
+}
+.service h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.service p{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.service-item{
+    float: left;
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+.service-item p{
+    font-style:normal;
+
+}
+.service-item h3{
+    margin-top: 10px;
+    
+}
+/**************************************PORTFOLIO style******************************************************/
+.portfolio{
+    text-align: center;
+}
+.portfolio h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.portfolio-item{
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding-right: 30px;
+    margin-bottom: 8px;
+    background-color: beige
+
+}
+.portfolio-item img{
+    display: block;
+    width: 100%;
+
+}
+.portfolio-item h3{
+    margin-top: 20px;
+}
+.portfolio-item p{
+    margin-top: 8px;
+}
+
+/**************************************team style******************************************************/
+.team{
+    text-align: center;
+}
+.team h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.team p{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.team-item{
+    float: left;
+    width: 33.33%;
+    padding-right: 30px;
+
+}
+.team-item img{
+    width: 70%;
+    display: block;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.team-item p{
+    margin-top: 10px;
+}
+.team-item i{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+/**************************************contact style******************************************************/
+.contact{
+    background-image: url(img/map.jpg);
+    height: 600px;
+   width: 100%;
+   background-repeat: no-repeat;
+   text-align: center;
+   margin-bottom: 10px;
+   
+}
+.contact h2{
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact p{
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white;
+}
+/**************************************footer style******************************************************/
+.footer{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+
+}
+.footer p{
+    float: left;
+}
+.social {
+    float: left;
+    margin-left: 100px;
+}
+.listfinal ul li{
+    float: left;    
+list-style-type: none;
+   
+}
+.listfinal ul li{
+    
+    float: left;
+    
+    margin-right: 15px;
+   
+}
